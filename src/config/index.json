@@ -30,27 +30,27 @@
     "title": "Welcome to Jsecurity",
     "subtitle": " Your Ultimate Android Security Solution! 🛡️",
     "description": "Keep your Android device safe and secure with Jsecurity, the all-in-one security app designed to protect your device and your data. With a comprehensive range of features, Jsecurity offers peace of mind in an increasingly digital world.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "img": "/assets/images/security.png",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Download",
       "href": "#"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "skjasimuddin@gmail.com?subject=i want your App!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Live Device Location",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Never worry about losing your device again. 📍",
+        "description": "Never worry about losing your device again. With Jsecurity's Live Device Location feature, you can track your Android device in real-time. Whether it's misplaced at home or left behind in a public place, you'll always know its exact whereabouts, providing you with peace of mind and ensuring that you can retrieve it quickly and efficiently.",
+        "img": "/assets/images/device_auth.png"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "title": "Device Lock & Anti-Theft!",
+        "description": "Protect your device from unauthorized access with Jsecurity's Device Lock & Anti-Theft feature. Our robust locking system ensures that only you can access your device, even in the event of theft or loss. With anti-theft measures in place, including remote locking capabilities, you can rest assured that your data remains safe and secure, no matter what.!",
         "img": "/assets/images/product2.jpg"
       }
     ]
