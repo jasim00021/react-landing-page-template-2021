@@ -1,11 +1,9 @@
-import React from 'react';
-
 import config from '../config/index.json';
 
 const About = () => {
   const { company, about } = config;
   const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  const { socialMedia, content } = about;
 
   return (
     <div
@@ -16,8 +14,8 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-16 h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-          {sections.map((section, index) => (
+        <div className="flex flex-wrap sm:gap-10   mt-4 h-auto">
+          {/* {sections.map((section, index) => (
             <a
               key={`${section.name}-${index}`}
               href={section.href}
@@ -25,7 +23,8 @@ const About = () => {
             >
               {section.name}
             </a>
-          ))}
+          ))} */}
+          <p className="mt-4  text-xl text-gray-500 lg:mx-auto">{content}</p>
         </div>
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
@@ -80,8 +79,8 @@ const About = () => {
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
             &copy; {new Date().getFullYear()} designed by{' '}
-            <a href="https://github.com/issaafalkattan" rel="nofollow">
-              Issaaf Kattan
+            <a href="https://github.com/jasim0021" rel="nofollow">
+              Sk Jasimuddin
             </a>
           </p>
         </div>
